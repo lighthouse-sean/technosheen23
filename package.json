@@ -1,9 +1,9 @@
 {
-  "name": "bartzalewski.com-v2",
+  "name": "technosheen.com-v2",
   "private": true,
-  "description": "Bart Zalewski | Full-Stack Developer",
+  "description": "Sean Mahoney | Full-Stack Developer",
   "version": "0.1.0",
-  "author": "Bart Zalewski <me@bartzalewski.com>",
+  "author": "Sean Mahoney <technosheen@icloud.com>",
   "dependencies": {
     "@contentful/rich-text-react-renderer": "^15.11.1",
     "@fortawesome/fontawesome-svg-core": "^1.3.0",
