@@ -8,9 +8,6 @@ import Header from './header'
 import Board from './board/board'
 
 import bg from '../images/bg.jpg'
-import cross from '../images/decorations/cross.svg'
-import tick from '../images/decorations/tick.svg'
-import circle from '../images/decorations/circle.svg'
 
 const HeroSection = styled.section`
   background-image: url(${bg});
@@ -68,44 +65,6 @@ const Right = styled.div`
   position: relative;
   perspective: 700px;
 `
-const Image = styled.img`
-  position: absolute;
-  z-index: 0;
-
-  &.decoration__cross {
-    left: 50%;
-    top: 0;
-    transition: 0.2s;
-    filter: drop-shadow(0px 0px 15px #ff5252);
-    &:hover {
-      transform: rotate(180deg);
-      transition: 0.2s;
-      filter: none;
-    }
-  }
-  &.decoration__tick {
-    left: 35%;
-    bottom: 10%;
-    transition: 0.2s;
-    filter: drop-shadow(0px 0px 15px #02d463);
-    &:hover {
-      transform: scale(0.9);
-      transition: 0.2s;
-      filter: none;
-    }
-  }
-  &.decoration__circle {
-    left: 75%;
-    top: 20%;
-    transition: 0.2s;
-    filter: drop-shadow(0px 0px 15px #00cde2);
-    &:hover {
-      transform: scale(1.1);
-      transition: 0.2s;
-      filter: none;
-    }
-  }
-`
 
 export default function Hero() {
   const data = useStaticQuery(graphql`
@@ -152,24 +111,6 @@ export default function Hero() {
             <Right className="hero__right">
               <Board />
             </Right>
-            <Image
-              className="decoration decoration__cross"
-              src={cross}
-              alt="cross"
-              loading="lazy"
-            />
-            <Image
-              className="decoration decoration__tick"
-              src={tick}
-              alt="tick"
-              loading="lazy"
-            />
-            <Image
-              className="decoration decoration__circle"
-              src={circle}
-              alt="circle"
-              loading="lazy"
-            />
           </Container>
         </div>
       </HeroContainer>
