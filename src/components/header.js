@@ -80,7 +80,7 @@ const Header = () => {
       </Scrollspy>
       <Navbar id="navbar" className="navbar__container container--secondary">
         <LinkItem href="/#" className="navbar__logo">
-          Bart
+          technosheen
         </LinkItem>
         <div className="hamburger__container">
           <button

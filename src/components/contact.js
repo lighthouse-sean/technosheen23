@@ -143,7 +143,7 @@ export default function Contact() {
 
     axios({
       method: 'POST',
-      url: 'https://bartzalewski-v2-api.herokuapp.com/send',
+      url: 'https://technosheen.herokuapp.com/send',
       data: {
         name: name,
         email: email,
