@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import sean from '../images/sean.svg'
+import sean from '../images/sean.jpg'
 
 const AboutSection = styled.section`
   display: flex;
