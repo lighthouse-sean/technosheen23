@@ -107,7 +107,7 @@ const Footer = () => {
           </Links>
           <Descriptions className="footer__desc section__desc">
             <Description className="footer__copy">
-              Copyright {new Date().getFullYear()} &copy; Bart Zalewski
+              Copyright {new Date().getFullYear()} &copy; Sean Mahoney
             </Description>
             <Description className="footer__credit">
               Created by{' '}
@@ -115,9 +115,9 @@ const Footer = () => {
                 href="https://github.com/bartzalewski/bartzalewski.com-v2"
                 target="_blank"
                 rel="noopener noreferrer"
-                title="Bart Zalewski | Full-Stack Developer"
+                title="Sean Mahoney | Full-Stack Developer"
               >
-                Bart Zalewski
+                Sean Mahoney
               </a>
             </Description>
           </Descriptions>

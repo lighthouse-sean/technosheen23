@@ -1,18 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Bart Zalewski | Full-Stack Developer`,
-    author: `Bart Zalewski`,
+    title: `Sean Mahoney | Full-Stack Developer`,
+    author: `Sean Mahoney`,
     role: `Full-Stack Developer`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: process.env.GOOGLE_ANALYTICS_ID,
-        head: true,
-        anonymize: true,
-      },
-    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
     {
@@ -34,8 +26,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Bart Zalewski | Full-Stack Developer`,
-        short_name: `Bart Zalewski`,
+        name: `Sean Mahoney | Full-Stack Developer`,
+        short_name: `Sean Mahoney`,
         start_url: `/`,
         background_color: `#02D463`,
         theme_color: `#02D463`,

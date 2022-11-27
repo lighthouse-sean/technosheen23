@@ -2,7 +2,7 @@ import React from 'react'
 import styled from 'styled-components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-import bart from '../images/bart.jpg'
+import sean from '../images/profile-picture.jpg'
 
 const AboutSection = styled.section`
   display: flex;
@@ -163,7 +163,7 @@ export default function About() {
               </Item>
             </List>
           </Wrapper>
-          <Image src={bart} alt="Bart Zalewski" loading="lazy" />
+          <Image src={sean} alt="Sean Mahoney" loading="lazy" />
         </Container>
       </div>
     </AboutSection>

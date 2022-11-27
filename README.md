@@ -69,6 +69,7 @@ No configuration at all. Just install.
 
    ```
    npm install -g gatsby-cli
+
    ```
 
 3. CD to the forked repo
@@ -95,7 +96,7 @@ No configuration at all. Just install.
 
 ## ⚠️ Using it as Your Portfolio
 
-As I'm making this repo public for all, you can easily get it and use it how you want. But, there is a must. You need to attribute me. You must leave alone the attribution under the copyright statement ("Created By Bart Zalewski").
+As I'm making this repo public for all, you can easily get it and use it how you want. But, there is a must. You need to attribute me. You must leave alone the attribution under the copyright statement ("Created By Sean Mahoney").
 
 In the beginning, I created this website only for myself, for portfolio purposes. Now, you can just download it and use it for your purposes.
 

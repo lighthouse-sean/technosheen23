@@ -46,7 +46,7 @@ const Board = () => {
         />
         <BoardBox
           bgwebm={bartzalewskiV2WebM}
-          title="Bart Zalewski v2"
+          title="Sean Mahoney v2"
           url="https://bartzalewski.com/"
         />
       </Grid>
